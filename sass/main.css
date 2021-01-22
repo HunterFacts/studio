@@ -20,35 +20,29 @@
   -webkit-font-smoothing: antialiased;
 }
 
-/* label color */
 .input-field label {
   color: #0f0c29 !important;
 }
 
-/* label focus color */
 .input-field input[type=text]:focus + label {
   color: #0f0c29 !important;
 }
 
-/* label underline focus color */
 .input-field input[type=text]:focus {
   border-bottom: 1px solid #0f0c29 !important;
   box-shadow: 0 1px 0 0 #0f0c29 !important;
 }
 
-/* valid color */
 .input-field input[type=text].valid {
   border-bottom: 1px solid #0f0c29 !important;
   box-shadow: 0 1px 0 0 #0f0c29 !important;
 }
 
-/* invalid color */
 .input-field input[type=text].invalid {
   border-bottom: 1px solid red !important;
   box-shadow: 0 1px 0 0 red !important;
 }
 
-/* icon prefix focus color */
 .input-field .prefix.active {
   color: #0f0c29 !important;
 }
@@ -298,4 +292,171 @@ section.main-timetable .swiper-container .swiper-wrapper .swiper-slide .card.nav
   float: right;
   line-height: 1.5rem;
   height: 1.5rem;
+}
+
+section.main-news-list {
+  padding: 30px;
+  position: relative;
+  z-index: 19;
+}
+
+section.main-news-list .card {
+  border-radius: 15px;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 1rem;
+  color: white;
+}
+
+section.main-news-list .card .news-container a {
+  color: white;
+}
+
+section.main-news-list .card .news-container a:hover {
+  color: green;
+}
+
+section.main-news-list .card h3 {
+  margin-top: 0;
+}
+
+section.main-news-list .card.nav-block-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+section.main-news-list .card.nav-block-container .material-icons {
+  color: white;
+}
+
+section.main-news-list .card.nav-block-container .text-container {
+  color: white;
+  font-size: 48px;
+}
+
+section.main-new {
+  padding: 30px;
+  position: relative;
+  z-index: 19;
+}
+
+section.main-new .card {
+  border-radius: 15px;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 1rem;
+  color: white;
+}
+
+section.main-new .card h3 {
+  margin-top: 0;
+}
+
+section.main-new .card.nav-block-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+section.main-new .card.nav-block-container .material-icons {
+  color: white;
+}
+
+section.main-new .card.nav-block-container .text-container {
+  color: white;
+  font-size: 48px;
+}
+
+section.main-rules {
+  padding: 30px;
+  position: relative;
+  z-index: 19;
+}
+
+section.main-rules .card {
+  border-radius: 15px;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 1rem;
+  color: white;
+}
+
+section.main-rules .card h3 {
+  margin-top: 0;
+}
+
+section.main-rules .card .collection .collection-item {
+  color: black;
+}
+
+section.main-feedback {
+  padding: 30px;
+  position: relative;
+  z-index: 19;
+}
+
+section.main-feedback .card {
+  border-radius: 15px;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 1rem;
+  color: white;
+}
+
+section.main-feedback .card h3 {
+  margin-top: 0;
+}
+
+section.main-feedback .card.card-feedback {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+section.main-feedback .input-field label {
+  color: white !important;
+}
+
+section.main-feedback .input-field input[type=text]:focus + label {
+  color: white !important;
+}
+
+section.main-feedback .input-field input[type=text]:focus {
+  border-bottom: 1px solid white !important;
+  box-shadow: 0 1px 0 0 white !important;
+}
+
+section.main-feedback .input-field input[type=text].valid {
+  border-bottom: 1px solid white !important;
+  box-shadow: 0 1px 0 0 white !important;
+}
+
+section.main-feedback .input-field input[type=text].invalid {
+  border-bottom: 1px solid red !important;
+  box-shadow: 0 1px 0 0 red !important;
+}
+
+section.main-feedback .input-field .prefix.active {
+  color: white !important;
+}
+
+section.main-feedback .select-wrapper .caret {
+  fill: white;
+}
+
+section.main-feedback .select-wrapper input.select-dropdown, section.main-feedback textarea.materialize-textarea {
+  color: white;
+}
+
+section.main-feedback .select-dropdown li.disabled, section.main-feedback .select-dropdown li.disabled > span, section.main-feedback .select-dropdown li.optgroup {
+  color: rgba(255, 255, 255, 0.3);
+}
+
+section.main-feedback .btn {
+  background: #0f0c29;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #24243e, #302b63, #0f0c29);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="sass/materialize.css">
+    <link rel="stylesheet" href="sass/main.css">
+    <title>Digital Studio</title>
+</head>
+<body class="desktop">
+    <div class="darkness" style="background-color: rgba(0, 0, 0, 0.6);"></div>
+    <nav>
+        <div class="nav-wrapper">
+            <a href="desktop.html" class="brand-logo">Digital Studio <div class="cube"></div></a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li><a>Авторизован: Admin</a></li>
+            <li><a class="dropdown-trigger" href="#!" data-target="dropdown1">Навигация<i class="material-icons right">arrow_drop_down</i></a></li>
+            <li><a href="index.html">Выйти</a></li>
+            </ul>
+        </div>
+    </nav>
+    <ul id="dropdown1" class="dropdown-content">
+        <li><a href="timetable.html">Расписание</a></li>
+        <li><a href="#!">Новости</a></li>
+        <li><a href="#!">Правила</a></li>
+        <li><a href="#!">Написать обратную связь</a></li>
+        <li><a href="#!">Профиль</a></li>
+    </ul>
+    <section class="main-new">
+        <div class="row">
+            <div class="col s12 xl8 offset-xl2">
+                <div class="card">
+                    <h3>Новый портал!</h3>
+                    <hr>
+                    <div class="new-container">
+                        <div class="new-text">
+                            <p>Мы запускаем новый портал для нашей студии, где вы сможете заполнить расписание на текущую неделю!</p>
+
+                            <p>Вот как он будет выглядеть:</p>
+                            <img class="responsive-img" src="img/new-photo.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</body>
+<script src="./js/jquery.js"></script>
+<script src="./js/materialize.js"></script>
+<script src="./js/main.js"></script>
+</html>
